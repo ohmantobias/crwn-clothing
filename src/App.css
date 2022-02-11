@@ -7,3 +7,11 @@ a {
   text-decoration: none;
   color: #000;
 }
+
+html {
+  box-sizing: border-box;
+}
+
+* {
+  box-sizing: inherit;
+}
