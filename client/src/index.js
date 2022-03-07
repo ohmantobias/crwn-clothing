@@ -8,8 +8,7 @@ import { store, persistor } from "./redux/store";
 import "./index.css";
 import App from "./App";
 import reportWebVitals from "./reportWebVitals";
-import * as serviceWorker from "./service-worker";
-
+import * as serviceWorker from "./serviceWorker";
 ReactDOM.render(
   <Provider store={store}>
     <BrowserRouter>
